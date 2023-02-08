@@ -8,4 +8,12 @@ $(document).ready(function(){
         var $nav = $('.navbar');
         $nav.toggleClass('change-on-scroll', $(this).scrollTop() > $nav.height());
     });
+
+    $('.header-banner-wrapper').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+    });
 })
