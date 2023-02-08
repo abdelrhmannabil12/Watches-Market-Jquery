@@ -272,3 +272,20 @@ img{
 .slick-dots{
     bottom: 50px;
 }
+.slick-dots li{
+    margin: 0 0.84rem!important;
+}
+.slick-dots li button::before{
+    width: 16px;
+    height: 16px;
+    border: 3px solid white;
+    border-radius: 50%;
+    color: transparent;
+    opacity: 1;
+}
+.slick-dots li.slick-active button::before{
+    color: var(--aqua-color);
+    background-color: var(--aqua-color);
+    border-color: var(--aqua-color);
+    opacity: 1;
+}
