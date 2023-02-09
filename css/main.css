@@ -42,6 +42,10 @@
     font-size: 1.5rem;
     font-weight: 600;
 }
+.logo{
+    width:70px;
+    padding-right: 10px;
+}
 .text{
     font-size: 1.4rem;
     font-weight: 500;
