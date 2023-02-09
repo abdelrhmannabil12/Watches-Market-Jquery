@@ -437,6 +437,29 @@ img{
 .newsletter-content .btn{
     margin-top: 4rem;
 }
+.footer{
+    padding: 3rem 0;
+}
+.footer-logo{
+    margin-bottom: 6rem;
+}
+.footer-logo img{
+    width: 40px;
+}
+.footer-logo span{
+    margin-left: 1rem;
+}
+.footer-links a{
+    display: block;
+    padding: 1.5rem 0;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.05);
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
+    transition: var(--transition);
+}
+.footer-links a:hover{
+    color: var(--grey-color);
+}
 
 
 
