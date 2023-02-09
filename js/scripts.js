@@ -16,4 +16,26 @@ $(document).ready(function(){
         slidesToShow: 1,
         adaptiveHeight: true
     });
+
+    $('.watches-content').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        adaptiveHeight: true,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings:{
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
 })
