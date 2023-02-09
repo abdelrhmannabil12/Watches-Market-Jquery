@@ -353,9 +353,32 @@ img{
     opacity: 1;
 }
 .watches-content .slick-dots li.slick-active button::before{
-    border-color: var(--green-color);
+    border-color: var(--aqua-color);
 }
 
+.brands-content{
+    gap: 3rem;
+}
+.brands-item{
+    position: relative;
+    background-color: var(--aqua-color);
+    min-height: 360px;
+    overflow: hidden;
+}
+.brands-item img{
+    opacity: 0.2;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.brands-item .info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
 
 
 
