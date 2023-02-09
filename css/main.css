@@ -284,26 +284,6 @@ img{
     border-color: var(--aqua-color);
     opacity: 1;
 }
-.about-content{
-    gap: 3rem;
-}
-.about-left{
-    height: 280px;
-    overflow: hidden;
-}
-.about-right > div{
-    margin-top: 3.4rem;
-}
-.about-icon{
-    -webkit-box-pack: start!important;
-        -ms-flex-pack: start!important;
-            justify-content: flex-start!important;
-    margin-bottom: 2rem;
-}
-.about-icon img{
-    width: 34px;
-    margin-right: 4rem;
-}
 
 .features-content{
     gap: 3.5rem;
