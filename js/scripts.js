@@ -38,6 +38,40 @@ $(document).ready(function(){
             }
         ]
     });
+    $('.brands-content').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 4,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings:{
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 576,
+                settings:{
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
     $('.clients-content').slick({
         arrows:false,
         dots: true,
