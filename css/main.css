@@ -380,7 +380,34 @@ img{
             transform: translate(-50%, -50%);
 }
 
-
+.clients{
+    padding-bottom: 7rem!important;
+}
+.clients-item .image{
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid var(--green-color);
+}
+.clients-item p.text{
+    margin: 4rem 0 7rem 0;
+    max-width: 700px;
+}
+.clients-item span{
+    display: block;
+}
+.clients-content .slick-dots{
+    bottom: -50px;
+}
+.clients-content .slick-dots li button::before{
+    border: 3px solid var(--dark-color);
+}
+.clients-content .slick-dots li.slick-active button::before{
+    color: var(--green-color);
+    background-color: var(--green-color);
+    border-color: var(--green-color);
+}
 
 
 
