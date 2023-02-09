@@ -310,7 +310,51 @@ img{
 
 
 
-
+.watches{
+    overflow-x: hidden;
+}
+.watches-item h3{
+    margin-top: 2.2rem;
+    margin-bottom: 1rem;
+}
+.watches-item .text{
+    margin-bottom: 1.8rem;
+}
+.watches-item .details{
+    padding: 0 2.6rem;
+    border-bottom: 2px solid var(--grey-color);
+}
+.watches-item ul{
+    padding: 1rem 4.5rem;
+}
+.watches-item ul li{
+    padding: 1rem 0;
+    border-bottom: 2px solid var(--grey-color);
+}
+.watches-item .btn{
+    display: block;
+    margin: 4rem 3.2rem 0 3.2rem;
+}
+.watches-item > div{
+    padding-bottom: 3rem;
+}
+.view-link{
+    display: none;
+}
+.watches-content .slick-dots{
+    bottom: -44px;
+}
+.watches-content .slick-dots li button::before{
+    width: 16px;
+    height: 16px;
+    border: 3px solid var(--dark-color);
+    border-radius: 50%;
+    color: transparent;
+    opacity: 1;
+}
+.watches-content .slick-dots li.slick-active button::before{
+    border-color: var(--green-color);
+}
 
 
 
